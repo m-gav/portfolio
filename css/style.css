@@ -1,0 +1,150 @@
+@font-face {
+    font-family: "Farro Regular";
+    src: url("/fonts/Farro-Regular.woff");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Farro Bold";
+    src: url("/fonts/Farro-Bold.woff");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Farro Light";
+    src: url("/fonts/Farro-Light.woff");
+    font-weight: lighter;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+}
+
+.navbar {
+    font-family: "Farro Regular";
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.container-fluid {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-bottom: 3px solid gray;
+}
+
+h2 {
+    font-family: "Farro Light";
+    font-size: 1rem;
+    letter-spacing: 0.25rem;
+    padding-top: 5%;
+}
+
+h3 {
+    font-family: "Farro Light";
+    font-size: 1rem;
+    letter-spacing: 0.25rem;
+    padding-bottom: 1%;
+}
+
+section {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 5% 5% 5% 5%;
+    border: 2px solid lightgray;
+    border-top-right-radius: 60%;
+    border-bottom-left-radius: 60%;
+    border-top-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+}
+
+.about {
+    display: flex;
+    justify-content: space-around;
+}
+
+label {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+form {
+    font-family: "Farro Light";
+}
+
+input[type=text] {
+    width: 50%;
+    border-color: black;
+}
+
+input[type=submit] {
+    font-family: "Farro Regular";
+    margin-top: 2%;
+    background-color: black;
+}
+
+textarea {
+    border-color: black !important;
+    width: 80% !important;
+    height: 70% !important;
+}
+
+input[type=submit]:hover {
+    background-color: gray;
+}
+
+input[type=submit]:active {
+    background-color: white;
+}
+
+.michael-image {
+    width: 30%;
+    height: auto;
+    object-fit: contain;
+}
+
+.github {
+    border: 0;
+    width: 10%;
+    height: auto;
+}
+
+p {
+    font-family: "Farro Light"
+}
+
+.about p {
+    font-family: "Farro Light";
+    font-size: 100%;
+    padding-left: 0.5%;
+    width: 40%;
+    height: auto;
+}
+
+footer {
+    font-family: "Farro Light", sans-serif;
+    font-size: 0.75rem;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.github-icon {
+    width: 3%;
+    height: auto;
+}
+
+.linkedin-icon {
+    width: 3%;
+    height: auto;
+}
+.contact-me {
+    margin-left: 20%;
+}
+
+body {
+    background-color: blac
+
+}
